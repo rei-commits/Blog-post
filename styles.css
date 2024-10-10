@@ -1,0 +1,102 @@
+/* General styles */
+body {
+  font-family: 'Figtree', sans-serif;
+  background-color: #F3D95A; /* Background matches screenshot */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 15px; /* Space between card and attribution */
+}
+
+.card {
+  background-color: white;
+  border-radius: 15px; /* Rounded corners */
+  overflow: hidden;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Adds subtle shadow for depth */
+  max-width: 350px;
+  text-align: left;
+}
+
+.card-image {
+  width: 100%;
+  height: auto;
+}
+
+.card-content {
+  padding: 20px;
+}
+
+.tag {
+  background-color: hsl(47, 88%, 63%);
+  color: white;
+  padding: 5px 10px;
+  border-radius: 20px;
+  font-size: 12px;
+  text-transform: uppercase;
+  display: inline-block;
+}
+
+.card-title {
+  font-size: 24px;
+  margin: 15px 0 10px;
+  color: hsl(47, 88%, 63%); /* Yellowish color for title */
+}
+
+.card-body {
+  font-size: 16px;
+  color: hsl(0, 0%, 42%);
+  line-height: 1.5;
+}
+
+.author {
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.author-image {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.author-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.author-name {
+  font-weight: bold;
+  font-size: 14px;
+  color: hsl(0, 0%, 7%);
+}
+
+.publish-date {
+  font-size: 12px;
+  color: hsl(0, 0%, 42%);
+}
+
+/* Attribution styles */
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+/* Adjust the gap between card and attribution */
+.container {
+  margin-top: 20px;
+}
